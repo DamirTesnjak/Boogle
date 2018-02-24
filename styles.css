@@ -1,0 +1,256 @@
+
+/* Skupni class-i "Position"*/
+
+
+.abs-pos {
+  position: absolute;
+}
+
+.rel-pos {
+  position: relative;
+}
+
+.top-left {
+  top: 0px;
+  left: 0px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* Skupni class za pisavo*/
+
+.font {
+  font-family: arial,sans-serif;
+}
+
+/* Glavni div celotne strani*/
+
+.container {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  min-width: 560px;
+}
+
+/* Glava strani*/
+
+.header {
+  width: 100%;
+  height: 50px;
+}
+
+.urls-btns-header {
+  top: 0px;
+  right: 0px;
+  font-size: 13px;
+ }
+
+.url-header-padding {
+  padding-right: 7.5px;
+}
+
+/* gear in apps ikona */
+.gear, .apps {
+  top: 10px;
+}
+
+.sign-btn {
+  background: rgb(70, 132, 238);
+  color: white;
+  border: 1px solid rgb(70, 132, 238);
+}
+
+button.sign-btn:active {
+  background: rgb(33, 108, 235);
+  color: white;
+  border: 1px solid rgb(60, 143, 200);
+}
+
+button.sign-btn:hover {
+  color: white;
+  border: 1px solid rgb(70, 132, 238);
+}
+
+/* Logo */
+
+.container-logo {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+.logo {
+  bottom: 25px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  min-width: 500px;
+  height: auto;
+  padding: 0px;
+  text-align: center;
+}
+
+.letter-width {
+  width: auto;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+/* Barva črk */
+
+.blue {
+  color: rgb(60, 143, 200);
+}
+
+.orange {
+  color: rgb(253, 216, 0);
+}
+
+.red {
+  color: rgb(238, 97, 80);
+}
+
+.green {
+  color: rgb(88, 190, 91);
+}
+
+.country-name {
+  bottom: 5px;
+  left: 335px;
+  font-size: 19px;
+}
+
+/* Glavni div za iskalno vrstico */
+
+.main-container-search-box {
+  height: auto;
+  width: 100%;
+  padding: 0px;
+}
+
+/* Nosilec iskalne vrstice */
+
+.container-search-box {
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 562px;
+}
+
+/* Iskalna vrstica */
+
+.search-box {
+  width: 502px;
+  height: 34px;
+  color: rgb(34, 34, 34);
+  font-size: 19px;
+  border-radius: 2px;
+  border: 1px solid #b9b9b9;
+  box-shadow: 0px 2px 2px #e4e4e4;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 60px;
+  text-align: left;
+}
+
+.microphone {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: none;
+  padding-left: 5px;
+}
+
+/* Glavni nosilec za gumbe pod iskalno vrstico */
+
+.main-container-btns {
+  min-height: 120px;
+  padding: 2px;
+}
+
+/* Nosilec gumbov pod iskalno vrstico */
+
+.container-btns {
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  text-align: center;
+}
+
+/* Noga strani */
+
+.footer {
+  bottom: 0px;
+  width: 100%;
+  height: 41px;
+  color: rgba(0,0,0,0.54);
+  background: #f2f2f2;
+  font-size: 13px;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+}
+
+.container-left {
+  left: 0px;
+  bottom: 0px;
+  width: 50%;
+  min-width: 280px;
+  text-align: left;
+}
+
+.container-right {
+  right: 0px;
+  bottom: 0px;
+  width: 50%;
+  min-width: 280px;
+  text-align: right;
+}
+
+.url-padding-left {
+  margin-left: 0px;
+  padding-left: 30px;
+}
+
+.url-padding-right {
+  margin-right: 0px;
+  padding-right: 30px;
+}
+
+button {
+  margin: 11px 4px;
+  min-width: 54px;
+  height: 36px;
+  background-color: #f2f2f2;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 27px;
+  padding: 0px 16px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  text-align: center;
+}
+
+button:hover {
+  color: black;
+  border: 1px solid #b9b9b9;
+  box-shadow: 0px 2px 2px #e4e4e4;
+}
+
+button:active {
+  color: black;
+  border: 1px solid rgb(60, 143, 200);
+  box-shadow: 0px 2px 2px #e4e4e4;
+}
+
+a {
+  color: rgba(0,0,0,0.54);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
